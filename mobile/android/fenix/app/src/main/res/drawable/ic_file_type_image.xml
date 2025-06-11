@@ -1,18 +1,14 @@
-<!-- This Source Code Form is subject to the terms of the Mozilla Public
-   - License, v. 2.0. If a copy of the MPL was not distributed with this
-   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
+<?xml version="1.0" encoding="utf-8"?>
 <vector xmlns:android="http://schemas.android.com/apk/res/android"
     android:width="24dp"
     android:height="24dp"
     android:viewportWidth="24"
     android:viewportHeight="24">
+
   <path
-      android:fillColor="?attr/textPrimary"
-      android:pathData="M15.455,9.826a0.573,0.573 0,0 0,-0.912 0L12.275,12.65a0.584,0.584 0,0 1,-0.684 0.188l-2.273,-0.952a0.576,0.576 0,0 0,-0.594 0.09l-2.5,2.087A0.621,0.621 0,0 0,6 14.55V16.5a0.5,0.5 0,0 0,0.5 0.5h11a0.5,0.5 0,0 0,0.5 -0.5V13.225a0.61,0.61 0,0 0,-0.144 -0.4Z"/>
-  <path
-      android:fillColor="?attr/textPrimary"
-      android:pathData="M8.5,9.25m-1.25,0a1.25,1.25 0,1 1,2.5 0a1.25,1.25 0,1 1,-2.5 0"/>
-  <path
-      android:fillColor="?attr/textPrimary"
-      android:pathData="M19,3L5,3A3,3 0,0 0,2 6L2,18a3,3 0,0 0,3 3L19,21a3,3 0,0 0,3 -3L22,6A3,3 0,0 0,19 3ZM20,18a1,1 0,0 1,-1 1L5,19a1,1 0,0 1,-1 -1L4,6A1,1 0,0 1,5 5L19,5a1,1 0,0 1,1 1Z"/>
+      android:strokeColor="?attr/textPrimary"
+      android:strokeWidth="1.5"
+      android:strokeLineJoin="round"
+      android:strokeLineCap="round"
+      android:pathData="M4.46814 17.5319C5.62291 19.7154 7.92876 20.5 12 20.5C17.6255 20.5 19.8804 19.002 20.3853 14.3853M4.46814 17.5319C3.77924 16.2292 3.5 14.4288 3.5 12C3.5 5.5 5.5 3.5 12 3.5C18.5 3.5 20.5 5.5 20.5 12C20.5 12.8745 20.4638 13.6676 20.3853 14.3853M4.46814 17.5319L7.58579 14.4142C8.36684 13.6332 9.63317 13.6332 10.4142 14.4142L10.5858 14.5858C11.3668 15.3668 12.6332 15.3668 13.4142 14.5858L15.5858 12.4142C16.3668 11.6332 17.6332 11.6332 18.4142 12.4142L20.3853 14.3853M10.691 8.846C10.691 9.865 9.864 10.692 8.845 10.692C7.827 10.692 7 9.865 7 8.846C7 7.827 7.827 7 8.845 7C9.864 7 10.691 7.827 10.691 8.846Z" />
 </vector>
