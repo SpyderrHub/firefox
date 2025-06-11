@@ -19,7 +19,7 @@
     <!-- Placeholder text shown in the search bar before a user enters text for the default engine -->
     <string name="search_hint">Search or enter address</string>
     <!-- Placeholder text shown in the search bar before a user enters text for a general engine -->
-    <string name="search_hint_general_engine">Search the web</string>
+    <string name="search_hint_general_engine">Search the Internet</string>
     <!-- Placeholder text shown in search bar when using history search -->
     <string name="history_search_hint">Search history</string>
     <!-- Placeholder text shown in search bar when using bookmarks search -->
@@ -625,7 +625,7 @@
     <!-- Text preview for smaller sized widgets -->
     <string name="search_widget_text_short">Search</string>
     <!-- Text preview for larger sized widgets -->
-    <string name="search_widget_text_long">Search the web</string>
+    <string name="search_widget_text_long">Search the Internet</string>
     <!-- Content description (not visible, for screen readers etc.): Voice search -->
     <string name="search_widget_voice">Voice search</string>
 
@@ -655,13 +655,13 @@
     <!-- Preference Category for settings related to Search address bar -->
     <string name="preferences_settings_address_bar">Address bar preferences</string>
     <!-- Preference Category for settings to Firefox Suggest -->
-    <string name="preference_search_address_bar_fx_suggest" tools:ignore="BrandUsage">Address bar - Firefox Suggest</string>
-    <!-- Preference link to Learn more about Firefox Suggest -->
-    <string name="preference_search_learn_about_fx_suggest" tools:ignore="BrandUsage">Learn more about Firefox Suggest</string>
+    <string name="preference_search_address_bar_fx_suggest" tools:ignore="BrandUsage">Address bar - Or Browser Suggest</string>
+    <!-- Preference link to Learn more about Or Browser Suggest -->
+    <string name="preference_search_learn_about_fx_suggest" tools:ignore="BrandUsage">Learn more about Or Browser Suggest</string>
     <!-- Preference link to rating Fenix on the Play Store -->
     <string name="preferences_rate">Rate on Google Play</string>
     <!-- Preference linking to about page for Fenix
-        %1$s is the name of the app (for example "Firefox"). -->
+        %1$s is the name of the app (for example "Or Browser"). -->
     <string name="preferences_about">About %1$s</string>
     <!-- Preference for settings related to changing the default browser -->
     <string name="preferences_set_as_default_browser">Set as default browser</string>
@@ -714,7 +714,7 @@
     <string name="reduce_cookie_banner_details_panel_title_on_for_site_1">Turn on Cookie Banner Blocker for %1$s?</string>
     <!-- Title text for a detail explanation indicating cookie banner handling is off this site, this is shown as part of the cookie banner panel in the toolbar. %1$s is a shortened URL of the current site. -->
     <string name="reduce_cookie_banner_details_panel_title_off_for_site_1">Turn off Cookie Banner Blocker for %1$s?</string>
-    <!-- Title text for a detail explanation indicating cookie banner reducer didn't work for the current site, this is shown as part of the cookie banner panel in the toolbar. %1$s is the name of the app (for example "Firefox"). -->
+    <!-- Title text for a detail explanation indicating cookie banner reducer didn't work for the current site, this is shown as part of the cookie banner panel in the toolbar. %1$s is the name of the app (for example "Or Browser"). -->
     <string name="reduce_cookie_banner_details_panel_title_unsupported_site_request_2">%1$s can’t automatically reject cookie requests on this site. You can send a request to support this site in the future.</string>
     <!-- Long text for a detail explanation indicating what will happen if cookie banner handling is off for a site, this is shown as part of the cookie banner panel in the toolbar. %1$s is the name of the app (for example "Firefox"). -->
     <string name="reduce_cookie_banner_details_panel_description_off_for_site_1">Turn off and %1$s will clear cookies and reload this site. This may sign you out or empty shopping carts.</string>
@@ -1040,7 +1040,7 @@
     <!-- Name of the "receive tabs" notification channel. Displayed in the "App notifications" system settings for the app -->
     <string name="fxa_received_tab_channel_name">Received tabs</string>
     <!-- Description of the "receive tabs" notification channel. Displayed in the "App notifications" system settings for the app -->
-    <string name="fxa_received_tab_channel_description" tools:ignore="BrandUsage">Notifications for tabs received from other Firefox devices.</string>
+    <string name="fxa_received_tab_channel_description" tools:ignore="BrandUsage">Notifications for tabs received from other Or Browser devices.</string>
     <!--  The body for these is the URL of the tab received  -->
     <string name="fxa_tab_received_notification_name">Tab Received</string>
     <!-- %s is the device name -->
@@ -1068,12 +1068,12 @@
     <!-- Preference switch for usage and technical learn more link -->
     <string name="preference_usage_data_learn_more">Learn more</string>
     <!-- Preference description for marketing data collection. Note: The words "Firefox" should NOT be translated -->
-    <string name="preferences_usage_data_description_1" tools:ignore="BrandUsage">Data about your device, hardware configuration, and usage helps us improve Firefox features, performance, and stability.</string>
+    <string name="preferences_usage_data_description_1" tools:ignore="BrandUsage">Data about your device, hardware configuration, and usage helps us improve Or Browser features, performance, and stability.</string>
     <!-- Preference switch for campaign measurement data (marketing data) collection -->
     <string name="preferences_marketing_data_2">Campaign measurement data</string>
     <!-- Preference description for marketing data collection.
     Note: The words "Firefox" and "Mozilla" should NOT be translated. “That you use it” is to mean that the user is opting in to sharing that they are continuing to use Firefox after installing it; not that Firefox is tracking their “usage” or what they’re using it for. -->
-    <string name="preferences_marketing_data_description_4" tools:ignore="BrandUsage">Share how you discovered Firefox and that you use it with Mozilla’s marketing technology partners.</string>
+    <string name="preferences_marketing_data_description_4" tools:ignore="BrandUsage">Share how you discovered Or Browser and that you use it with Mozilla’s marketing technology partners.</string>
     <!-- Learn more link for marketing data preference -->
     <string name="preferences_marketing_data_learn_more">Learn more about marketing data</string>
     <!-- Preference switch for daily usage ping data collection -->
@@ -1858,10 +1858,10 @@
     <string name="notification_marketing_channel_name">Marketing</string>
     <!-- Title shown in the notification that pops up to remind the user to set fenix as default browser.
     The app name is in the text, due to limitations with localizing Nimbus experiments -->
-    <string name="nimbus_notification_default_browser_title" tools:ignore="BrandUsage,UnusedResources">Firefox is fast and private</string>
+    <string name="nimbus_notification_default_browser_title" tools:ignore="BrandUsage,UnusedResources">Or Browser is fast and private</string>
     <!-- Text shown in the notification that pops up to remind the user to set fenix as default browser.
     The app name is in the text, due to limitations with localizing Nimbus experiments -->
-    <string name="nimbus_notification_default_browser_text" tools:ignore="BrandUsage,UnusedResources">Make Firefox your default browser</string>
+    <string name="nimbus_notification_default_browser_text" tools:ignore="BrandUsage,UnusedResources">Make Or Browser your default browser</string>
     <!-- Title shown in the notification that pops up to re-engage the user -->
     <string name="notification_re_engagement_title">Try private browsing</string>
     <!-- Text shown in the notification that pops up to re-engage the user.
@@ -1880,7 +1880,7 @@
     <!-- Survey -->
     <!-- Text shown in the fullscreen message that pops up to ask user to take a short survey.
     The app name is in the text, due to limitations with localizing Nimbus experiments -->
-    <string name="nimbus_survey_message_text" tools:ignore="BrandUsage">Please help make Firefox better by taking a short survey.</string>
+    <string name="nimbus_survey_message_text" tools:ignore="BrandUsage">Please help make "Or Browser" better by taking a short survey.</string>
     <!-- Preference for taking the short survey. -->
     <string name="preferences_take_survey">Take Survey</string>
     <!-- Preference for not taking the short survey. -->
@@ -2629,7 +2629,7 @@
     <!-- Text displayed when user has disabled tab syncing in Firefox Sync Account -->
     <string name="synced_tabs_enable_tab_syncing">Please enable tab syncing.</string>
     <!-- Text displayed when user has no tabs that have been synced -->
-    <string name="synced_tabs_no_tabs" tools:ignore="BrandUsage">You don’t have any tabs open in Firefox on your other devices.</string>
+    <string name="synced_tabs_no_tabs" tools:ignore="BrandUsage">You don’t have any tabs open in Or Browser on your other devices.</string>
     <!-- Text displayed in the synced tabs screen when a user is not signed in to Firefox Sync describing Synced Tabs -->
     <string name="synced_tabs_sign_in_message">View a list of tabs from your other devices.</string>
     <!-- Text displayed on a button in the synced tabs screen to link users to sign in when a user is not signed in to Firefox Sync -->
@@ -2689,7 +2689,7 @@
     <!-- The header text of the auto-close message when the user is asked if they want to turn on the auto-closing of inactive tabs. -->
     <string name="inactive_tabs_auto_close_message_header" tools:ignore="UnusedResources">Auto-close after one month?</string>
     <!-- A description below the header to notify the user what the inactive tabs auto-close feature is. -->
-    <string name="inactive_tabs_auto_close_message_description" tools:ignore="BrandUsage,UnusedResources">Firefox can close tabs you haven’t viewed over the past month.</string>
+    <string name="inactive_tabs_auto_close_message_description" tools:ignore="BrandUsage,UnusedResources">Or Browser can close tabs you haven’t viewed over the past month.</string>
     <!-- A call to action below the description to allow the user to turn on the auto closing of inactive tabs. -->
     <string name="inactive_tabs_auto_close_message_action" tools:ignore="UnusedResources">TURN ON AUTO CLOSE</string>
     <!-- Text for the snackbar to confirm auto-close is enabled for inactive tabs -->
@@ -2697,7 +2697,7 @@
 
     <!-- Awesome bar suggestion's headers -->
     <!-- Search suggestions title for Firefox Suggest. -->
-    <string name="firefox_suggest_header" tools:ignore="BrandUsage">Firefox Suggest</string>
+    <string name="firefox_suggest_header" tools:ignore="BrandUsage">Or Browser Suggest</string>
     <!-- Search suggestions title for trending search suggestions.
         %s is a placeholder for the name of the search engine providing the trending search suggestions. -->
     <string name="trending_searches_header_2">Trending on %s</string>
@@ -2712,7 +2712,7 @@
     <!-- Default browser card title -->
     <string name="default_browser_experiment_card_title">Switch your default browser</string>
     <!-- Default browser card text -->
-    <string name="default_browser_experiment_card_text" tools:ignore="BrandUsage">Set links from websites, emails, and messages to open automatically in Firefox.</string>
+    <string name="default_browser_experiment_card_text" tools:ignore="BrandUsage">Set links from websites, emails, and messages to open automatically in Or Browser.</string>
 
     <!-- Content description for close button in collection placeholder. -->
     <string name="remove_home_collection_placeholder_content_description">Remove</string>
@@ -3089,7 +3089,7 @@
     <!-- Microsurvey -->
     <!-- Prompt view -->
     <!-- The microsurvey prompt title. Note: The word "Firefox" should NOT be translated -->
-    <string name="micro_survey_prompt_title" tools:ignore="BrandUsage,UnusedResources">Help us make Firefox better. It only takes a minute.</string>
+    <string name="micro_survey_prompt_title" tools:ignore="BrandUsage,UnusedResources">Help us make Or Browser better. It only takes a minute.</string>
     <!-- The continue button label -->
     <string name="micro_survey_continue_button_label" tools:ignore="UnusedResources">Continue</string>
     <!-- Survey view -->
@@ -3116,26 +3116,26 @@
     <!-- Option for likert scale -->
     <string name="likert_scale_option_6" tools:ignore="UnusedResources">I don’t use it</string>
     <!-- Option for likert scale. Note: The word "Firefox" should NOT be translated. -->
-    <string name="likert_scale_option_7" tools:ignore="BrandUsage,UnusedResources">I don’t use search on Firefox</string>
+    <string name="likert_scale_option_7" tools:ignore="BrandUsage,UnusedResources">I don’t use search on Or Browser</string>
     <!-- Option for likert scale -->
     <string name="likert_scale_option_8" tools:ignore="UnusedResources">I don’t use sync</string>
     <!-- Text shown in prompt for printing microsurvey. "sec" It's an abbreviation for "second". Note: The word "Firefox" should NOT be translated. -->
-    <string name="microsurvey_prompt_printing_title" tools:ignore="BrandUsage,UnusedResources">Help make printing in Firefox better. It only takes a sec</string>
+    <string name="microsurvey_prompt_printing_title" tools:ignore="BrandUsage,UnusedResources">Help make printing in Or Browser better. It only takes a sec</string>
     <!-- Text shown in prompt for search microsurvey. Note: The word "Firefox" should NOT be translated. -->
-    <string name="microsurvey_prompt_search_title" tools:ignore="BrandUsage,UnusedResources">Help make search in Firefox better. It only takes a minute</string>
+    <string name="microsurvey_prompt_search_title" tools:ignore="BrandUsage,UnusedResources">Help make search in Or Browser better. It only takes a minute</string>
     <!-- Text shown in prompt for sync microsurvey. Note: The word "Firefox" should NOT be translated. -->
-    <string name="microsurvey_prompt_sync_title" tools:ignore="BrandUsage,UnusedResources">Help make sync in Firefox better. It only takes a minute</string>
+    <string name="microsurvey_prompt_sync_title" tools:ignore="BrandUsage,UnusedResources">Help make sync in Or Browser better. It only takes a minute</string>
     <!-- Text shown in the survey title for printing microsurvey. Note: The word "Firefox" should NOT be translated. -->
-    <string name="microsurvey_survey_printing_title" tools:ignore="BrandUsage,UnusedResources">How satisfied are you with printing in Firefox?</string>
+    <string name="microsurvey_survey_printing_title" tools:ignore="BrandUsage,UnusedResources">How satisfied are you with printing in Or Browser?</string>
     <!-- Text shown in the survey title for homepage microsurvey. Note: The word "Firefox" should NOT be translated. -->
-    <string name="microsurvey_homepage_title" tools:ignore="BrandUsage,UnusedResources">How satisfied are you with your Firefox homepage?</string>
+    <string name="microsurvey_homepage_title" tools:ignore="BrandUsage,UnusedResources">How satisfied are you with your Or Browser homepage?</string>
     <!-- Text shown in the survey title for search experience microsurvey. Note: The word "Firefox" should NOT be translated. -->
-    <string name="microsurvey_search_title" tools:ignore="BrandUsage,UnusedResources">How satisfied are you with the search experience in Firefox?</string>
+    <string name="microsurvey_search_title" tools:ignore="BrandUsage,UnusedResources">How satisfied are you with the search experience in Or Browser?</string>
     <!-- Text shown in the survey title for sync experience microsurvey. Note: The word "Firefox" should NOT be translated. -->
-    <string name="microsurvey_sync_title" tools:ignore="BrandUsage,UnusedResources">How satisfied are you with the sync experience in Firefox?</string>
+    <string name="microsurvey_sync_title" tools:ignore="BrandUsage,UnusedResources">How satisfied are you with the sync experience in Or Browser?</string>
     <!-- Accessibility -->
     <!-- Content description for the survey application icon. Note: The word "Firefox" should NOT be translated.  -->
-    <string name="microsurvey_app_icon_content_description" tools:ignore="BrandUsage">Firefox logo</string>
+    <string name="microsurvey_app_icon_content_description" tools:ignore="BrandUsage">Or Browser logo</string>
     <!-- Content description for the survey feature icon. -->
     <string name="microsurvey_feature_icon_content_description">Survey feature icon</string>
     <!-- Content description (not visible, for screen readers etc.) for closing microsurvey bottom sheet. -->
@@ -3212,27 +3212,27 @@
     <!-- Homepage card button to open Google Play Store. "Update" is a verb. -->
     <string name="certificate_warning_homepage_card_update_now_button" tools:ignore="UnusedResources">Update now</string>
     <!-- Homepage card title about old Firefox version. "Update" is a verb. Note: The word "Firefox" should NOT be translated. -->
-    <string name="certificate_warning_homepage_card_hca1_title" tools:ignore="BrandUsage,UnusedResources">Update your Firefox browser</string>
+    <string name="certificate_warning_homepage_card_hca1_title" tools:ignore="BrandUsage,UnusedResources">Update your Or Browser</string>
     <!-- Homepage card message about old Firefox version -->
     <string name="certificate_warning_homepage_card_hca1_message" tools:ignore="UnusedResources">A root certificate will expire, causing some features to stop working on March 14.</string>
     <!-- Homepage card title about old Firefox version. "Update" is a verb. -->
     <string name="certificate_warning_homepage_card_hcr1_title" tools:ignore="UnusedResources">Update before March 14</string>
     <!-- Homepage card message about old Firefox version. Note: The word "Firefox" should NOT be translated. -->
-    <string name="certificate_warning_homepage_card_hcr1_message" tools:ignore="BrandUsage,UnusedResources">A root certificate will expire, causing your version of Firefox to stop working properly.</string>
+    <string name="certificate_warning_homepage_card_hcr1_message" tools:ignore="BrandUsage,UnusedResources">A root certificate will expire, causing your version of Or Browser to stop working properly.</string>
     <!-- Homepage card title about old Firefox version -->
     <string name="certificate_warning_homepage_card_hcw2_title" tools:ignore="UnusedResources">Less than 7 days to left to update</string>
     <!-- Homepage card message about old Firefox version. Note: The word "Firefox" should NOT be translated. -->
-    <string name="certificate_warning_homepage_card_hcw2_message" tools:ignore="BrandUsage,UnusedResources">On March 14, add-ons and other Firefox features will stop working because a root certificate is expiring.</string>
+    <string name="certificate_warning_homepage_card_hcw2_message" tools:ignore="BrandUsage,UnusedResources">On March 14, add-ons and other Or Browser features will stop working because a root certificate is expiring.</string>
     <!-- Homepage card title about old Firefox version. Note: The word "Firefox" should NOT be translated. -->
-    <string name="certificate_warning_homepage_card_hcw3_title" tools:ignore="BrandUsage,UnusedResources">Last chance to keep your Firefox</string>
+    <string name="certificate_warning_homepage_card_hcw3_title" tools:ignore="BrandUsage,UnusedResources">Last chance to keep your Or Browser</string>
     <!-- Homepage card message about old Firefox version. Note: The word "Firefox" should NOT be translated. -->
-    <string name="certificate_warning_homepage_card_hcw3_message" tools:ignore="BrandUsage,UnusedResources">Your version of Firefox will stop working properly on March 14 because a root certificate is expiring.</string>
+    <string name="certificate_warning_homepage_card_hcw3_message" tools:ignore="BrandUsage,UnusedResources">Your version of Or Browser will stop working properly on March 14 because a root certificate is expiring.</string>
     <!-- Push notification title about old Firefox version. "Update" is a noun. -->
     <string name="certificate_warning_push_notification_update_recommended_title" tools:ignore="UnusedResources">Update recommended</string>
     <!-- Push notification message about old Firefox version -->
     <string name="certificate_warning_push_notification_pnr1_message" tools:ignore="UnusedResources">Add-ons and some features will stop working on March 14.</string>
     <!-- Push notification title about old Firefox version. Note: The word "Firefox" should NOT be translated. -->
-    <string name="certificate_warning_push_notification_pnw2_title" tools:ignore="BrandUsage,UnusedResources">You’re on an older version of Firefox</string>
+    <string name="certificate_warning_push_notification_pnw2_title" tools:ignore="BrandUsage,UnusedResources">You’re on an older version of Or Browser</string>
     <!-- Push notification message about old Firefox version. "Update" is a verb. -->
     <string name="certificate_warning_push_notification_pnw2_message" tools:ignore="UnusedResources">Update before March 14 to keep using add-ons and other features.</string>
     <!-- Push notification message about old Firefox version -->
