@@ -3,4 +3,4 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 MOZ_APP_DISPLAYNAME=Or Browser
-ANDROID_PACKAGE_NAME=org.android.org.browser
+ANDROID_PACKAGE_NAME=org.android.or.browser
