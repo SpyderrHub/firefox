@@ -12,9 +12,9 @@
 ##
 ## Reference: https://www.mozilla.org/styleguide/communications/translation/
 
--brand-short-name = Firefox
--brand-full-name = Mozilla Firefox
+-brand-short-name = Or Browser
+-brand-full-name = Or Browser
 # This brand name can be used in messages where the product name needs to
 # remain unchanged across different versions (Nightly, Beta, etc.).
--brand-product-name = Firefox
--vendor-short-name = Mozilla
+-brand-product-name = Or Browser
+-vendor-short-name = Or Browser
