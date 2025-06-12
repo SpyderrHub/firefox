@@ -39,6 +39,7 @@
         android:layout_gravity="center" />
     <ImageButton
         android:id="@+id/overflow_menu"
+        android:layout_gravity="center"
         android:layout_width="@dimen/glyph_button_width"
         android:layout_height="@dimen/glyph_button_height"
         android:background="?android:attr/selectableItemBackgroundBorderless"
