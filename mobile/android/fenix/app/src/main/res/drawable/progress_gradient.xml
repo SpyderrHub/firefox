@@ -19,8 +19,8 @@
                     android:topRightRadius="8dp"/>
                 <gradient
                     android:angle="45"
-                    android:centerColor="#000000"
-                    android:endColor="#000000"
+                    android:centerColor="#ff00ff"
+                    android:endColor="#0000cd"
                     android:startColor="#000000" />
             </shape>
         </scale>
