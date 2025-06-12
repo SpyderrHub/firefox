@@ -33,12 +33,12 @@
         <TextView
             android:id="@+id/url"
             style="@style/QuickSettingsText"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_width="366dp"
+            android:layout_height="40dp"
             android:paddingStart="8dp"
             android:paddingTop="8dp"
-            tools:text="https://wikipedia.org"
-            tools:ignore="RtlSymmetry" />
+            tools:ignore="RtlSymmetry"
+            tools:text="https://wikipedia.org" />
     </LinearLayout>
 
     <LinearLayout
@@ -59,15 +59,16 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical">
+
             <TextView
                 android:id="@+id/securityInfo"
                 style="@style/QuickSettingsLargeText"
-                android:minHeight="@dimen/quicksettings_item_height"
                 android:layout_width="match_parent"
-                android:paddingStart="8dp"
                 android:layout_height="wrap_content"
-                app:drawableEndCompat="@drawable/ic_arrowhead_right"
+                android:minHeight="@dimen/quicksettings_item_height"
+                android:paddingStart="8dp"
                 android:paddingEnd="0dp"
+                app:drawableEndCompat="@drawable/ic_arrowhead_right"
                 tools:text="Connection is secure" />
         </LinearLayout>
     </LinearLayout>
