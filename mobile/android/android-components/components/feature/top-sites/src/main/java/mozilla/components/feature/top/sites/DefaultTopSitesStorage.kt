@@ -100,47 +100,47 @@ class DefaultTopSitesStorage(
             providerConfig.showProviderTopSites &&
             pinnedSites.size < providerConfig.maxThreshold
         ) {
-            try {
-                providerTopSites = topSitesProvider
-                    .getTopSites(allowCache = true)
-                    .filter { providerConfig.providerFilter?.invoke(it) ?: true }
-                    // The total amount of pinned and provider top sites that are returned in
-                    // `topSites` should not exceed the `providerConfig.maxThreshold`.
-                    // To maintain this constraint, first determine the amount of provider top
-                    // sites that can be taken from the available pool provider top sites, and
-                    // then ensure the number of provider top sites added does not exceed the
-                    // `limit`.
-                    .take(providerConfig.maxThreshold - pinnedSites.size)
-                    .take(providerConfig.limit)
-                topSites.addAll(providerTopSites)
-                numSitesRequired -= providerTopSites.size
-            } catch (e: Exception) {
-                logger.error("Failed to fetch top sites from provider", e)
-            }
+//            try {
+//                providerTopSites = topSitesProvider
+//                    .getTopSites(allowCache = true)
+//                    .filter { providerConfig.providerFilter?.invoke(it) ?: true }
+//                    // The total amount of pinned and provider top sites that are returned in
+//                    // `topSites` should not exceed the `providerConfig.maxThreshold`.
+//                    // To maintain this constraint, first determine the amount of provider top
+//                    // sites that can be taken from the available pool provider top sites, and
+//                    // then ensure the number of provider top sites added does not exceed the
+//                    // `limit`.
+//                    .take(providerConfig.maxThreshold - pinnedSites.size)
+//                    .take(providerConfig.limit)
+//                topSites.addAll(providerTopSites)
+//                numSitesRequired -= providerTopSites.size
+//            } catch (e: Exception) {
+//                logger.error("Failed to fetch top sites from provider", e)
+//            }
         }
 
         topSites.addAll(pinnedSites)
 
-        if (frecencyConfig?.frecencyTresholdOption != null && numSitesRequired > 0) {
-            // Get 'totalSites' sites for duplicate entries with
-            // existing pinned sites
-            val frecentSites = historyStorage
-                .getTopFrecentSites(totalSites, frecencyConfig.frecencyTresholdOption)
-                .map { it.toTopSite() }
-                .filter {
-                    !pinnedSites.hasUrl(it.url) &&
-                        !providerTopSites.hasHost(it.url) &&
-                        frecencyConfig.frecencyFilter?.invoke(it) ?: true
-                }
-                .take(numSitesRequired)
+//        if (frecencyConfig?.frecencyTresholdOption != null && numSitesRequired > 0) {
+//            // Get 'totalSites' sites for duplicate entries with
+//            // existing pinned sites
+//            val frecentSites = historyStorage
+//                .getTopFrecentSites(totalSites, frecencyConfig.frecencyTresholdOption)
+//                .map { it.toTopSite() }
+//                .filter {
+//                    !pinnedSites.hasUrl(it.url) &&
+//                        !providerTopSites.hasHost(it.url) &&
+//                        frecencyConfig.frecencyFilter?.invoke(it) ?: true
+//                }
+//                .take(numSitesRequired)
+//
+//            topSites.addAll(frecentSites)
+//        }
 
-            topSites.addAll(frecentSites)
-        }
-
-        if (topSites != cachedTopSites) {
-            emitTopSitesCountFact(pinnedSites.size)
-            cachedTopSites = topSites
-        }
+//        if (topSites != cachedTopSites) {
+//            emitTopSitesCountFact(pinnedSites.size)
+//            cachedTopSites = topSites
+//        }
 
         return topSites
     }
