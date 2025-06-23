@@ -14,6 +14,8 @@ import mozilla.components.compose.base.theme.darkColorPalette
 import mozilla.components.compose.base.theme.layout.AcornLayout
 import mozilla.components.compose.base.theme.layout.AcornWindowSize
 import mozilla.components.compose.base.theme.lightColorPalette
+import mozilla.components.compose.base.theme.demoColorPalette
+import mozilla.components.compose.base.theme.demooColorPalette
 import mozilla.components.compose.base.theme.privateColorPalette
 import mozilla.components.compose.base.utils.inComposePreview
 import org.mozilla.fenix.ext.settings
@@ -33,6 +35,8 @@ fun FirefoxTheme(
         Theme.Light -> lightColorPalette
         Theme.Dark -> darkColorPalette
         Theme.Private -> privateColorPalette
+        Theme.Demo -> demoColorPalette
+        Theme.Demoo -> demooColorPalette
     }
 
     AcornTheme(
@@ -47,6 +51,8 @@ fun FirefoxTheme(
 enum class Theme {
     Light,
     Dark,
+    Demo,
+    Demoo,
     Private,
     ;
 
