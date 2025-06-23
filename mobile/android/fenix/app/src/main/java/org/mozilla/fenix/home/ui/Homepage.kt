@@ -454,6 +454,9 @@ private fun CustomizeHomeButton(buttonBackgroundColor: Color, interactor: Custom
     )
 }
 
+
+
+
 @Composable
 @PreviewLightDark
 private fun HomepagePreview() {
@@ -561,6 +564,11 @@ private fun PrivateHomepagePreview() {
         }
     }
 }
+
+
+
+
+
 
 private val horizontalMargin: Dp
     @Composable get() = dimensionResource(R.dimen.home_item_horizontal_margin)
